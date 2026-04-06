@@ -1,13 +1,13 @@
 export function Footer() {
   return (
-    <footer className="border-t border-green-900/40 bg-[#0a1f0d]/80 py-6 mt-8">
-      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-green-700">
+    <footer className="border-t border-white/5 bg-black/60 py-6 mt-8">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-gray-700">
         <div className="flex items-center gap-2">
-          <span className="text-2xl">⚽</span>
-          <span className="section-title text-lg text-green-600">PRODE MUNDIAL 2026</span>
+          <div className="w-6 h-6 rounded bg-orange-500 flex items-center justify-center text-black text-xs">⚽</div>
+          <span className="section-title text-base text-gray-600">PRODE MUNDIAL 2026</span>
         </div>
-        <p>Hecho con ❤️ para competir entre amigos</p>
-        <p>© 2026 — Todos los derechos reservados</p>
+        <p>Hecho para competir entre amigos 🤝</p>
+        <p>© 2026</p>
       </div>
     </footer>
   );
