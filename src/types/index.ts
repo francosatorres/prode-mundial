@@ -84,6 +84,7 @@ export const COUNTRY_CODES: Record<string, string> = {
   "Gales": "gb-wls",
   "Por definir": "un",
 };
+
 export function getFlagUrl(country: string): string {
   const code = COUNTRY_CODES[country];
   if (!code) return "";
