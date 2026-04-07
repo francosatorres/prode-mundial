@@ -69,7 +69,8 @@ export function PredictionsView({
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
   });
 
-  const allFases = [...new Set(matches.map(m => m.fase))].sort((a, b) => {
+const allFases = Array.from(new Set(matches.map(m => m.fase))).sort((a, b) => {
+
     const ia = FASE_ORDER.indexOf(a); const ib = FASE_ORDER.indexOf(b);
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
   });
