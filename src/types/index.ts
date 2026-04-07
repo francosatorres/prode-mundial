@@ -57,7 +57,7 @@ export const COUNTRY_CODES: Record<string, string> = {
   "España": "es",
   "Alemania": "de",
   "Portugal": "pt",
-  "Países Bajos": "nl",
+  "Paises Bajos": "nl",
   "Bélgica": "be",
   "Uruguay": "uy",
   "Croacia": "hr",
